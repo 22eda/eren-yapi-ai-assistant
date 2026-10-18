@@ -1,0 +1,25 @@
+# Sanal ortam — yeniden kurulabilir; depoya gitmez
+.venv/
+venv/
+
+# Python derleme artıkları
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Gizli bilgiler — gerçek anahtarlar asla Git'e girmez
+.env
+.env.local
+.env.*.local
+
+# Test ve araç önbellekleri
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# İşletim sistemi
+Thumbs.db
+Desktop.ini
+.DS_Store
